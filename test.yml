@@ -1,0 +1,6 @@
+name: Ali
+age: 28
+address: this is a string
+active: true
+key:
+  key: value
