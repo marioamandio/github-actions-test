@@ -12,3 +12,8 @@ jobs:
         run: | # this allows to run multiple commands
           node -v
           npm -v
+      - name: python command
+        run: |
+          import platform
+          print (platform.processor())
+        shell: python
